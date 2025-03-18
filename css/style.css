@@ -67,6 +67,42 @@ main {
   }
 }
 
+/*---------Регистрация-----------*/
+
+.form__item {
+  margin: 10px 0;
+}
+
+.form__label {
+  color: darkblue;
+}
+
+.form__field {
+  margin-top: 10px;
+  border: 1px solid darkblue;
+  padding: 10px;
+  border-radius: 7px;
+  color: darkblue;
+  background-color: lavender;
+  transition: outline 0.3s, outline-offest 0.3s, background 0.3s;
+}
+
+.form__btn {
+  background-color: darkblue;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.form__btn:hover,
+.form__btn:focus {
+  background-color: rgb(0, 0, 53);
+  color: lavender;
+  outline: 1px solid (0, 0, 139, 0.493);
+  outline-offset: 3px;
+}
+
 /*--------карточка товара-----------*/
 
 .catalog__title {
