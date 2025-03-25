@@ -67,6 +67,18 @@ main {
   }
 }
 
+.Cor {
+  color: black;
+  font-weight: bold;
+  background-color: rgb(238, 214, 0);
+  border-radius: 8px;
+  margin-right: 5px;
+  position: relative;
+  padding: 10px;
+  border: none;
+
+}
+
 /*---------Регистрация-----------*/
 
 .form__item {
@@ -310,7 +322,6 @@ input[type="radio"] {
               outline 0.2s, 
               outline-offset 0.2s;
 }
-
 
 input[type="radio"]:checked {
   transform: scale(0.6);
