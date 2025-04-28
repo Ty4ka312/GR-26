@@ -1,157 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Каталог товаров</title>
-    <link rel="stylesheet" href="css/normalize.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script defer src="js/swiper.js"></script>
-    <script defer src="js/aos.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/catalog.css">
+  <script defer src="catalog.js"></script>
+  <title>Страница товара</title>
 </head>
+
 <body>
-    <header>
-        <button class="Cor">Корзина</button>
-    </header>
-    
-    <main>
-        <section>
-          <div class="container catalog">
-            <div class="catalog__filter"></div>
-            <div class="catalog__content">
-              <div class="catalog__sort"></div>
-              <div class="catalog__grid">
-                <div class="catalog__card" data-aos="flip-up">
-                  <div class="img__wrapper">
-                    <!-- Slider main container -->
-                    <div class="swiper swiper-card">
-                      <!-- Additional required wrapper -->
-                      <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide"><img class="catalog__img"
-                            src="img/optimize.webp" alt=""></div>
-                        <div class="swiper-slide"><img class="catalog__img"
-                            src="img/optimize.webp" alt=""></div>
-                        <div class="swiper-slide"><img class="catalog__img"
-                            src="img/optimize.webp" alt=""></div>
-                        </div>
-                      <!-- If we need pagination -->
-                      <div class="swiper-pagination"></div>
-    
-                      
-                    </div>
-    
-                    </div>
-                </div>
+  <header>
+    <a href="#">Главная</a>
+    <a href="#">Корзина</a>
+  </header>
 
+<body>
+  <div class="container">
+    <div class="product-card">
+      <div class="product-slider">
+        <img src="img/optimize.webp" alt="Слайд 1">
+        <img src="img/optimize.webp" alt="Слайд 2">
+        <img src="img/optimize.webp" alt="Слайд 3">
+      </div>
+      <div class="product-info">
+        <h2>Название товара</h2>
+        <div class="product-description">
+          <p>Краткое описание товара. Здесь вы можете указать его особенности и преимущества.</p>
+        </div>
+        <div class="product-features">
+          <h3>Характеристики:</h3>
+          <ul>
+            <li>Характеристика 1</li>
+            <li>Характеристика 2</li>
+            <li>Характеристика 3</li>
+          </ul>
+        </div>
+        <div class="product-actions">
+          <button>Добавить в корзину</button>
+          <button>Купить</button>
+        </div>
+      </div>
+    </div>
 
-                <div>
-                    <h2 class="Xd">Мужские Наручные Часы Apple Watch Series 10 46mm Aluminum Case with Sport Band</h2>
-                    <p>В наличии 36 штук.</p>
-                    <p>Цвет: <span>черный</span></p>
-                    <p>Размер: <span>42mm</span></p>
-                    <p>Бренд: <sapn>Omega</sapn></p>
-                    <span class="price-now">от 3800 руб./шт</span>
-                    <p><span class="price-early">7600 руб.</span></p>
-                    <span class="price-sale">-50%</span>
-                    <span class="price-sale">Экономия 3800 руб.</span>
-                    <p><button class="catalog__btn">Заказать</button></p>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </section>
-    </main>
-
-      <main>
-        <section>
-            <div class="container catalog">
-              <div class="catalog__filter"></div>
-              <div class="catalog__content">
-                <div class="catalog__sort"></div>
-                <div class="catalog__grid">
-
-                  <div class="catalog__card" data-aos="flip-up">
-                    <div class="img__wrapper">
-                      <!-- Slider main container -->
-                      <div class="swiper swiper-card">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                          <!-- Slides -->
-                          <div class="swiper-slide"><img class="catalog__img"
-                              src="img/optimize.webp" alt=""></div>
-                          <div class="swiper-slide"><img class="catalog__img"
-                              src="img/optimize.webp" alt=""></div>
-                          <div class="swiper-slide"><img class="catalog__img"
-                              src="img/optimize.webp" alt=""></div>
-                          </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-      
-                        
-                      </div>
-      
-                      </div>
-                  </div>
-
-                  <div class="catalog__card" data-aos="flip-up">
-                    <div class="img__wrapper">
-                      <!-- Slider main container -->
-                      <div class="swiper swiper-card">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                          <!-- Slides -->
-                          <div class="swiper-slide"><img class="catalog__img"
-                              src="img/optimize.webp" alt=""></div>
-                          <div class="swiper-slide"><img class="catalog__img"
-                              src="img/optimize.webp" alt=""></div>
-                          <div class="swiper-slide"><img class="catalog__img"
-                              src="img/optimize.webp" alt=""></div>
-                          </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-      
-                        
-                      </div>
-      
-                      </div>
-                  </div>
-                  
-                  <div class="catalog__card" data-aos="flip-up">
-                    <div class="img__wrapper">
-                      <!-- Slider main container -->
-                      <div class="swiper swiper-card">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                          <!-- Slides -->
-                          <div class="swiper-slide"><img class="catalog__img"
-                              src="img/optimize.webp" alt=""></div>
-                          <div class="swiper-slide"><img class="catalog__img"
-                              src="img/optimize.webp" alt=""></div>
-                          <div class="swiper-slide"><img class="catalog__img"
-                              src="img/optimize.webp" alt=""></div>
-                          </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-      
-                        
-                      </div>
-      
-                      </div>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-          </section>
-      </main>
+    <div class="similar-products">
+      <h2>Похожие товары</h2>
+      <div class="similar-products-slider">
+        <div>
+          <img src="img/optimize.webp" alt="Товар 1">
+          <h3>Товар 1</h3>
+        </div>
+        <div>
+          <img src="img/optimize.webp" alt="Товар 2">
+          <h3>Товар 2</h3>
+        </div>
+        <div>
+          <img src="img/optimize.webp" alt="Товар 3">
+          <h3>Товар 3</h3>
+        </div>
+        <div>
+          <img src="img/optimize.webp" alt="Товар 4">
+          <h3>Товар 4</h3>
+        </div>
+        <div>
+          <img src="img/optimize.webp" alt="Товар 5">
+          <h3>Товар 5</h3>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
