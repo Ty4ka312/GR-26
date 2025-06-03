@@ -3,18 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/basket.css">
+  <link rel="stylesheet" href="css/style.css">
   <script defer src="js/basket.js"></script>
   <title>Корзина</title>
 </head>
-<body>
-  <header>
-    <a href="#">Главная</a>
-    <a href="#">Корзина</a>
-  </header>
 
-  <div class="container">
+  <body class="body a">
+    <header>
+      <h1 class="int">Корзина</h1>
+      <div class="top-right">
+        <a class="btn btn-light" href="control.html">
+          <span class="bi bi-house" href=""></span> 
+          <span>Главная</span>
+        </a>
+        <a class="btn btn-light" href="">
+          <span class="bi bi-sliders" href=""></span> 
+          <span>Сравнение</span>
+        </a>
+        <a class="btn btn-light" href="">
+            <span class="bi bi-heart" href=""></span> 
+            <span>Избранное</span>
+        </a>
+        <a class="btn btn-light" href="basket.html">
+            <span class="bi bi-cart" href=""></span> 
+            <span>Корзина</span>
+        </a>
+        <a class="btn btn-light" href="">
+            <span class="bi bi-person" href=""></span> 
+            <span>Профиль</span>
+        </a>
+    </div>
+    </header>
+
+<div class="catalog__content">
+    <div class="catalog__sort"></div>
+  <div class="catalog__grid">
+    <div>
     <table class="cart-table">
       <thead>
         <tr>
@@ -73,8 +99,9 @@
     <div class="cart-total">
       Общая стоимость: <span>$60.00</span>
     </div>
-    <a href="#" class="checkout-btn">Оформить заказ</a>
+    <a href="order.html" class="checkout-btn">Оформить заказ</a>
   </div>
-
+ </div>
+</div>
 </body>
 </html>
